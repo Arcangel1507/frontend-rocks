@@ -40,9 +40,9 @@ export const Card: React.FC<Props> = (props) => (
 export function Root() {
   return <Card
     id={0}
-    image="https://placeholdit.com/400/dddddd/999999"
+    image="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png"
     name="Pikachu"
-    types={["grass"]}
+    types={["thunder"]}
     />
 }
 function getTypeColor(type: string): string {
