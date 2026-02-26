@@ -45,6 +45,15 @@ export function Root() {
     types={["thunder"]}
     />
 }
+export function card() {
+  return <Card
+    id={0}
+    image="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png"
+    name="chamander"
+    types={["fire"]}
+    />
+}
+
 function getTypeColor(type: string): string {
   return typeColors[type];
 }
